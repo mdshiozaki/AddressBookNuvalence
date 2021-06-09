@@ -1,0 +1,1127 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3C86B9266C7C88007360C3 /* AddressBookModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C86B8266C7C88007360C3 /* AddressBookModelTests.swift */; };
+		AF3C8729266DBF2D007360C3 /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3C8728266DBF2D007360C3 /* DetailsViewModelTests.swift */; };
+		AF8AE7D2266C78CD00EA5EBD /* AddressBookViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AE7D1266C78CD00EA5EBD /* AddressBookViewControllerTests.swift */; };
+		AFC4646F266838CE00DE819D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC4646E266838CE00DE819D /* AppDelegate.swift */; };
+		AFC46471266838CE00DE819D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC46470266838CE00DE819D /* SceneDelegate.swift */; };
+		AFC46476266838CE00DE819D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC46474266838CE00DE819D /* Main.storyboard */; };
+		AFC46479266838CE00DE819D /* NuvalenceAddressbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFC46477266838CE00DE819D /* NuvalenceAddressbook.xcdatamodeld */; };
+		AFC4647B266838D300DE819D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC4647A266838D300DE819D /* Assets.xcassets */; };
+		AFC4647E266838D300DE819D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC4647C266838D300DE819D /* LaunchScreen.storyboard */; };
+		AFC46489266838D300DE819D /* NuvalenceAddressbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC46488266838D300DE819D /* NuvalenceAddressbookTests.swift */; };
+		AFC46494266838D300DE819D /* NuvalenceAddressbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC46493266838D300DE819D /* NuvalenceAddressbookUITests.swift */; };
+		AFC464AE2668424800DE819D /* AddressBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC464AD2668424800DE819D /* AddressBookModel.swift */; };
+		AFC464B62669539C00DE819D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC464B52669539C00DE819D /* DataModel.swift */; };
+		AFC464BC2669A52100DE819D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC464BB2669A52100DE819D /* DetailsViewController.swift */; };
+		AFC464C42669AEE400DE819D /* AddressBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC464C32669AEE400DE819D /* AddressBookTableViewController.swift */; };
+		AFC464CF266ADC9B00DE819D /* DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC464CE266ADC9B00DE819D /* DetailsModel.swift */; };
+		AFC464D5266AF5EE00DE819D /* AddressBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC464D3266AF5EE00DE819D /* AddressBookTableViewCell.swift */; };
+		AFC464D6266AF5EE00DE819D /* AddressBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC464D4266AF5EE00DE819D /* AddressBookTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF3C86BB266C7C88007360C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC46463266838CE00DE819D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4646A266838CE00DE819D;
+			remoteInfo = NuvalenceAddressbook;
+		};
+		AF3C872B266DBF2D007360C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC46463266838CE00DE819D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4646A266838CE00DE819D;
+			remoteInfo = NuvalenceAddressbook;
+		};
+		AF8AE7D4266C78CD00EA5EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC46463266838CE00DE819D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4646A266838CE00DE819D;
+			remoteInfo = NuvalenceAddressbook;
+		};
+		AF8AE7E6266C79DF00EA5EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC46463266838CE00DE819D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4646A266838CE00DE819D;
+			remoteInfo = NuvalenceAddressbook;
+		};
+		AFC46485266838D300DE819D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC46463266838CE00DE819D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4646A266838CE00DE819D;
+			remoteInfo = NuvalenceAddressbook;
+		};
+		AFC46490266838D300DE819D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC46463266838CE00DE819D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC4646A266838CE00DE819D;
+			remoteInfo = NuvalenceAddressbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF3C86B6266C7C88007360C3 /* AddressBookModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3C86B8266C7C88007360C3 /* AddressBookModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookModelTests.swift; sourceTree = "<group>"; };
+		AF3C86BA266C7C88007360C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3C8726266DBF2D007360C3 /* DetailsViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetailsViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3C8728266DBF2D007360C3 /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
+		AF3C872A266DBF2D007360C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8AE7CF266C78CD00EA5EBD /* AddressBookViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8AE7D1266C78CD00EA5EBD /* AddressBookViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewControllerTests.swift; sourceTree = "<group>"; };
+		AF8AE7D3266C78CD00EA5EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8AE7E1266C79DF00EA5EBD /* AddressBookModel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookModel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC4646B266838CE00DE819D /* NuvalenceAddressbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuvalenceAddressbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC4646E266838CE00DE819D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC46470266838CE00DE819D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFC46475266838CE00DE819D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC46478266838CE00DE819D /* NuvalenceAddressbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NuvalenceAddressbook.xcdatamodel; sourceTree = "<group>"; };
+		AFC4647A266838D300DE819D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC4647D266838D300DE819D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC4647F266838D300DE819D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC46484266838D300DE819D /* NuvalenceAddressbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuvalenceAddressbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC46488266838D300DE819D /* NuvalenceAddressbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuvalenceAddressbookTests.swift; sourceTree = "<group>"; };
+		AFC4648A266838D300DE819D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC4648F266838D300DE819D /* NuvalenceAddressbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuvalenceAddressbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC46493266838D300DE819D /* NuvalenceAddressbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuvalenceAddressbookUITests.swift; sourceTree = "<group>"; };
+		AFC46495266838D400DE819D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC464AD2668424800DE819D /* AddressBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookModel.swift; sourceTree = "<group>"; };
+		AFC464B52669539C00DE819D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AFC464BB2669A52100DE819D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AFC464C32669AEE400DE819D /* AddressBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookTableViewController.swift; sourceTree = "<group>"; };
+		AFC464CE266ADC9B00DE819D /* DetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModel.swift; sourceTree = "<group>"; };
+		AFC464D3266AF5EE00DE819D /* AddressBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookTableViewCell.swift; sourceTree = "<group>"; };
+		AFC464D4266AF5EE00DE819D /* AddressBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3C86B3266C7C88007360C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3C8723266DBF2D007360C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8AE7CC266C78CD00EA5EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8AE7DE266C79DF00EA5EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC46468266838CE00DE819D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC46481266838D300DE819D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4648C266838D300DE819D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3C86B7266C7C88007360C3 /* AddressBookModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C86B8266C7C88007360C3 /* AddressBookModelTests.swift */,
+				AF3C86BA266C7C88007360C3 /* Info.plist */,
+			);
+			path = AddressBookModelTests;
+			sourceTree = "<group>";
+		};
+		AF3C8727266DBF2D007360C3 /* DetailsViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C8728266DBF2D007360C3 /* DetailsViewModelTests.swift */,
+				AF3C872A266DBF2D007360C3 /* Info.plist */,
+			);
+			path = DetailsViewModelTests;
+			sourceTree = "<group>";
+		};
+		AF8AE7D0266C78CD00EA5EBD /* AddressBookViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8AE7D1266C78CD00EA5EBD /* AddressBookViewControllerTests.swift */,
+				AF8AE7D3266C78CD00EA5EBD /* Info.plist */,
+			);
+			path = AddressBookViewControllerTests;
+			sourceTree = "<group>";
+		};
+		AFC46462266838CE00DE819D = {
+			isa = PBXGroup;
+			children = (
+				AFC4646D266838CE00DE819D /* NuvalenceAddressbook */,
+				AFC46487266838D300DE819D /* NuvalenceAddressbookTests */,
+				AFC46492266838D300DE819D /* NuvalenceAddressbookUITests */,
+				AF8AE7D0266C78CD00EA5EBD /* AddressBookViewControllerTests */,
+				AF3C86B7266C7C88007360C3 /* AddressBookModelTests */,
+				AF3C8727266DBF2D007360C3 /* DetailsViewModelTests */,
+				AFC4646C266838CE00DE819D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC4646C266838CE00DE819D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC4646B266838CE00DE819D /* NuvalenceAddressbook.app */,
+				AFC46484266838D300DE819D /* NuvalenceAddressbookTests.xctest */,
+				AFC4648F266838D300DE819D /* NuvalenceAddressbookUITests.xctest */,
+				AF8AE7CF266C78CD00EA5EBD /* AddressBookViewControllerTests.xctest */,
+				AF8AE7E1266C79DF00EA5EBD /* AddressBookModel.xctest */,
+				AF3C86B6266C7C88007360C3 /* AddressBookModelTests.xctest */,
+				AF3C8726266DBF2D007360C3 /* DetailsViewModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC4646D266838CE00DE819D /* NuvalenceAddressbook */ = {
+			isa = PBXGroup;
+			children = (
+				AFC464A92668423A00DE819D /* AddressBook */,
+				AFC464BA2669A50F00DE819D /* Details */,
+				AFC4646E266838CE00DE819D /* AppDelegate.swift */,
+				AFC46470266838CE00DE819D /* SceneDelegate.swift */,
+				AFC464B52669539C00DE819D /* DataModel.swift */,
+				AFC46474266838CE00DE819D /* Main.storyboard */,
+				AFC4647A266838D300DE819D /* Assets.xcassets */,
+				AFC4647C266838D300DE819D /* LaunchScreen.storyboard */,
+				AFC4647F266838D300DE819D /* Info.plist */,
+				AFC46477266838CE00DE819D /* NuvalenceAddressbook.xcdatamodeld */,
+			);
+			path = NuvalenceAddressbook;
+			sourceTree = "<group>";
+		};
+		AFC46487266838D300DE819D /* NuvalenceAddressbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC46488266838D300DE819D /* NuvalenceAddressbookTests.swift */,
+				AFC4648A266838D300DE819D /* Info.plist */,
+			);
+			path = NuvalenceAddressbookTests;
+			sourceTree = "<group>";
+		};
+		AFC46492266838D300DE819D /* NuvalenceAddressbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC46493266838D300DE819D /* NuvalenceAddressbookUITests.swift */,
+				AFC46495266838D400DE819D /* Info.plist */,
+			);
+			path = NuvalenceAddressbookUITests;
+			sourceTree = "<group>";
+		};
+		AFC464A92668423A00DE819D /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				AFC464C32669AEE400DE819D /* AddressBookTableViewController.swift */,
+				AFC464AD2668424800DE819D /* AddressBookModel.swift */,
+				AFC464D3266AF5EE00DE819D /* AddressBookTableViewCell.swift */,
+				AFC464D4266AF5EE00DE819D /* AddressBookTableViewCell.xib */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		AFC464BA2669A50F00DE819D /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				AFC464BB2669A52100DE819D /* DetailsViewController.swift */,
+				AFC464CE266ADC9B00DE819D /* DetailsModel.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3C86B5266C7C88007360C3 /* AddressBookModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3C86BD266C7C88007360C3 /* Build configuration list for PBXNativeTarget "AddressBookModelTests" */;
+			buildPhases = (
+				AF3C86B2266C7C88007360C3 /* Sources */,
+				AF3C86B3266C7C88007360C3 /* Frameworks */,
+				AF3C86B4266C7C88007360C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3C86BC266C7C88007360C3 /* PBXTargetDependency */,
+			);
+			name = AddressBookModelTests;
+			productName = AddressBookModelTests;
+			productReference = AF3C86B6266C7C88007360C3 /* AddressBookModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF3C8725266DBF2D007360C3 /* DetailsViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3C872D266DBF2D007360C3 /* Build configuration list for PBXNativeTarget "DetailsViewModelTests" */;
+			buildPhases = (
+				AF3C8722266DBF2D007360C3 /* Sources */,
+				AF3C8723266DBF2D007360C3 /* Frameworks */,
+				AF3C8724266DBF2D007360C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3C872C266DBF2D007360C3 /* PBXTargetDependency */,
+			);
+			name = DetailsViewModelTests;
+			productName = DetailsViewModelTests;
+			productReference = AF3C8726266DBF2D007360C3 /* DetailsViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8AE7CE266C78CD00EA5EBD /* AddressBookViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8AE7D6266C78CD00EA5EBD /* Build configuration list for PBXNativeTarget "AddressBookViewControllerTests" */;
+			buildPhases = (
+				AF8AE7CB266C78CD00EA5EBD /* Sources */,
+				AF8AE7CC266C78CD00EA5EBD /* Frameworks */,
+				AF8AE7CD266C78CD00EA5EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8AE7D5266C78CD00EA5EBD /* PBXTargetDependency */,
+			);
+			name = AddressBookViewControllerTests;
+			productName = AddressBookViewControllerTests;
+			productReference = AF8AE7CF266C78CD00EA5EBD /* AddressBookViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8AE7E0266C79DF00EA5EBD /* AddressBookModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8AE7E8266C79DF00EA5EBD /* Build configuration list for PBXNativeTarget "AddressBookModel" */;
+			buildPhases = (
+				AF8AE7DD266C79DF00EA5EBD /* Sources */,
+				AF8AE7DE266C79DF00EA5EBD /* Frameworks */,
+				AF8AE7DF266C79DF00EA5EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8AE7E7266C79DF00EA5EBD /* PBXTargetDependency */,
+			);
+			name = AddressBookModel;
+			productName = AddressBookModel;
+			productReference = AF8AE7E1266C79DF00EA5EBD /* AddressBookModel.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC4646A266838CE00DE819D /* NuvalenceAddressbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC46498266838D400DE819D /* Build configuration list for PBXNativeTarget "NuvalenceAddressbook" */;
+			buildPhases = (
+				AFC46467266838CE00DE819D /* Sources */,
+				AFC46468266838CE00DE819D /* Frameworks */,
+				AFC46469266838CE00DE819D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuvalenceAddressbook;
+			productName = NuvalenceAddressbook;
+			productReference = AFC4646B266838CE00DE819D /* NuvalenceAddressbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC46483266838D300DE819D /* NuvalenceAddressbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC4649B266838D400DE819D /* Build configuration list for PBXNativeTarget "NuvalenceAddressbookTests" */;
+			buildPhases = (
+				AFC46480266838D300DE819D /* Sources */,
+				AFC46481266838D300DE819D /* Frameworks */,
+				AFC46482266838D300DE819D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC46486266838D300DE819D /* PBXTargetDependency */,
+			);
+			name = NuvalenceAddressbookTests;
+			productName = NuvalenceAddressbookTests;
+			productReference = AFC46484266838D300DE819D /* NuvalenceAddressbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC4648E266838D300DE819D /* NuvalenceAddressbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC4649E266838D400DE819D /* Build configuration list for PBXNativeTarget "NuvalenceAddressbookUITests" */;
+			buildPhases = (
+				AFC4648B266838D300DE819D /* Sources */,
+				AFC4648C266838D300DE819D /* Frameworks */,
+				AFC4648D266838D300DE819D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC46491266838D300DE819D /* PBXTargetDependency */,
+			);
+			name = NuvalenceAddressbookUITests;
+			productName = NuvalenceAddressbookUITests;
+			productReference = AFC4648F266838D300DE819D /* NuvalenceAddressbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC46463266838CE00DE819D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF3C86B5266C7C88007360C3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFC4646A266838CE00DE819D;
+					};
+					AF3C8725266DBF2D007360C3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFC4646A266838CE00DE819D;
+					};
+					AF8AE7CE266C78CD00EA5EBD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFC4646A266838CE00DE819D;
+					};
+					AF8AE7E0266C79DF00EA5EBD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFC4646A266838CE00DE819D;
+					};
+					AFC4646A266838CE00DE819D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AFC46483266838D300DE819D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFC4646A266838CE00DE819D;
+					};
+					AFC4648E266838D300DE819D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AFC4646A266838CE00DE819D;
+					};
+				};
+			};
+			buildConfigurationList = AFC46466266838CE00DE819D /* Build configuration list for PBXProject "NuvalenceAddressbook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC46462266838CE00DE819D;
+			productRefGroup = AFC4646C266838CE00DE819D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC4646A266838CE00DE819D /* NuvalenceAddressbook */,
+				AFC46483266838D300DE819D /* NuvalenceAddressbookTests */,
+				AFC4648E266838D300DE819D /* NuvalenceAddressbookUITests */,
+				AF8AE7CE266C78CD00EA5EBD /* AddressBookViewControllerTests */,
+				AF8AE7E0266C79DF00EA5EBD /* AddressBookModel */,
+				AF3C86B5266C7C88007360C3 /* AddressBookModelTests */,
+				AF3C8725266DBF2D007360C3 /* DetailsViewModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3C86B4266C7C88007360C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3C8724266DBF2D007360C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8AE7CD266C78CD00EA5EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8AE7DF266C79DF00EA5EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC46469266838CE00DE819D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4647E266838D300DE819D /* LaunchScreen.storyboard in Resources */,
+				AFC464D6266AF5EE00DE819D /* AddressBookTableViewCell.xib in Resources */,
+				AFC4647B266838D300DE819D /* Assets.xcassets in Resources */,
+				AFC46476266838CE00DE819D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC46482266838D300DE819D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4648D266838D300DE819D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3C86B2266C7C88007360C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3C86B9266C7C88007360C3 /* AddressBookModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3C8722266DBF2D007360C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3C8729266DBF2D007360C3 /* DetailsViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8AE7CB266C78CD00EA5EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8AE7D2266C78CD00EA5EBD /* AddressBookViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8AE7DD266C79DF00EA5EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC46467266838CE00DE819D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC464B62669539C00DE819D /* DataModel.swift in Sources */,
+				AFC464CF266ADC9B00DE819D /* DetailsModel.swift in Sources */,
+				AFC464BC2669A52100DE819D /* DetailsViewController.swift in Sources */,
+				AFC464AE2668424800DE819D /* AddressBookModel.swift in Sources */,
+				AFC46479266838CE00DE819D /* NuvalenceAddressbook.xcdatamodeld in Sources */,
+				AFC4646F266838CE00DE819D /* AppDelegate.swift in Sources */,
+				AFC46471266838CE00DE819D /* SceneDelegate.swift in Sources */,
+				AFC464C42669AEE400DE819D /* AddressBookTableViewController.swift in Sources */,
+				AFC464D5266AF5EE00DE819D /* AddressBookTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC46480266838D300DE819D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC46489266838D300DE819D /* NuvalenceAddressbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC4648B266838D300DE819D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC46494266838D300DE819D /* NuvalenceAddressbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF3C86BC266C7C88007360C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4646A266838CE00DE819D /* NuvalenceAddressbook */;
+			targetProxy = AF3C86BB266C7C88007360C3 /* PBXContainerItemProxy */;
+		};
+		AF3C872C266DBF2D007360C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4646A266838CE00DE819D /* NuvalenceAddressbook */;
+			targetProxy = AF3C872B266DBF2D007360C3 /* PBXContainerItemProxy */;
+		};
+		AF8AE7D5266C78CD00EA5EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4646A266838CE00DE819D /* NuvalenceAddressbook */;
+			targetProxy = AF8AE7D4266C78CD00EA5EBD /* PBXContainerItemProxy */;
+		};
+		AF8AE7E7266C79DF00EA5EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4646A266838CE00DE819D /* NuvalenceAddressbook */;
+			targetProxy = AF8AE7E6266C79DF00EA5EBD /* PBXContainerItemProxy */;
+		};
+		AFC46486266838D300DE819D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4646A266838CE00DE819D /* NuvalenceAddressbook */;
+			targetProxy = AFC46485266838D300DE819D /* PBXContainerItemProxy */;
+		};
+		AFC46491266838D300DE819D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC4646A266838CE00DE819D /* NuvalenceAddressbook */;
+			targetProxy = AFC46490266838D300DE819D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFC46474266838CE00DE819D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC46475266838CE00DE819D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC4647C266838D300DE819D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC4647D266838D300DE819D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3C86BE266C7C88007360C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = AddressBookModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.AddressBookModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Debug;
+		};
+		AF3C86BF266C7C88007360C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = AddressBookModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.AddressBookModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Release;
+		};
+		AF3C872E266DBF2D007360C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = DetailsViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.DetailsViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Debug;
+		};
+		AF3C872F266DBF2D007360C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = DetailsViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.DetailsViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Release;
+		};
+		AF8AE7D7266C78CD00EA5EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = AddressBookViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.AddressBookViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Debug;
+		};
+		AF8AE7D8266C78CD00EA5EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = AddressBookViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.AddressBookViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Release;
+		};
+		AF8AE7E9266C79DF00EA5EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = AddressBookModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.AddressBookModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Debug;
+		};
+		AF8AE7EA266C79DF00EA5EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = AddressBookModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.AddressBookModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Release;
+		};
+		AFC46496266838D400DE819D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC46497266838D400DE819D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC46499266838D400DE819D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = NuvalenceAddressbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.NuvalenceAddressbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC4649A266838D400DE819D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = NuvalenceAddressbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.NuvalenceAddressbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC4649C266838D400DE819D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = NuvalenceAddressbookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.NuvalenceAddressbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Debug;
+		};
+		AFC4649D266838D400DE819D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = NuvalenceAddressbookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.NuvalenceAddressbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuvalenceAddressbook.app/NuvalenceAddressbook";
+			};
+			name = Release;
+		};
+		AFC4649F266838D400DE819D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = NuvalenceAddressbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.NuvalenceAddressbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuvalenceAddressbook;
+			};
+			name = Debug;
+		};
+		AFC464A0266838D400DE819D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68894NA3L;
+				INFOPLIST_FILE = NuvalenceAddressbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mshiozaki.NuvalenceAddressbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuvalenceAddressbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3C86BD266C7C88007360C3 /* Build configuration list for PBXNativeTarget "AddressBookModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3C86BE266C7C88007360C3 /* Debug */,
+				AF3C86BF266C7C88007360C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3C872D266DBF2D007360C3 /* Build configuration list for PBXNativeTarget "DetailsViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3C872E266DBF2D007360C3 /* Debug */,
+				AF3C872F266DBF2D007360C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8AE7D6266C78CD00EA5EBD /* Build configuration list for PBXNativeTarget "AddressBookViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8AE7D7266C78CD00EA5EBD /* Debug */,
+				AF8AE7D8266C78CD00EA5EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8AE7E8266C79DF00EA5EBD /* Build configuration list for PBXNativeTarget "AddressBookModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8AE7E9266C79DF00EA5EBD /* Debug */,
+				AF8AE7EA266C79DF00EA5EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC46466266838CE00DE819D /* Build configuration list for PBXProject "NuvalenceAddressbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC46496266838D400DE819D /* Debug */,
+				AFC46497266838D400DE819D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC46498266838D400DE819D /* Build configuration list for PBXNativeTarget "NuvalenceAddressbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC46499266838D400DE819D /* Debug */,
+				AFC4649A266838D400DE819D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC4649B266838D400DE819D /* Build configuration list for PBXNativeTarget "NuvalenceAddressbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4649C266838D400DE819D /* Debug */,
+				AFC4649D266838D400DE819D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC4649E266838D400DE819D /* Build configuration list for PBXNativeTarget "NuvalenceAddressbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC4649F266838D400DE819D /* Debug */,
+				AFC464A0266838D400DE819D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFC46477266838CE00DE819D /* NuvalenceAddressbook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFC46478266838CE00DE819D /* NuvalenceAddressbook.xcdatamodel */,
+			);
+			currentVersion = AFC46478266838CE00DE819D /* NuvalenceAddressbook.xcdatamodel */;
+			path = NuvalenceAddressbook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFC46463266838CE00DE819D /* Project object */;
+}
